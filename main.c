@@ -8,7 +8,8 @@ int main(void)
                 printf(">> ");
                 scanf("%s", input);
                 if(!strcmp(input, "ls")){     // 입력값이 "ls"인 경우
-                        printf("ls 실행");
+                        printf("ls 실행\n");
+                        command_ls();
                 }
         }
         return 0;
